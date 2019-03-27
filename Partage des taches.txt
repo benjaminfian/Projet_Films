@@ -1,0 +1,15 @@
+premier sprint :
+
+
+- trouver informations films (image, categories, réalisateurs, prix, titre, vidéo) et les ajouter a la base de données. (yassine)
+- creer les layout (visiteur, membre,admin) (Elena )
+- page d'accueil (1 card par catégorie) (Octavian)
+- page avec cards (toutes catégories -> liste de tous les films) (Octavian)
+- travailler sur ouvrir fenetre modale pour vidéo. (Octavian)
+- formulaire de connexion + devenir un membre (Elena)
+- connexion (passage de la page visiteur vers membre) + deconnection (Elena)
+- crud admin (benjamin)
+- panier (yassine)
+
+deuxième sprint : 
+

@@ -1,4 +1,4 @@
-premier sprint :
+premier sprint : 27 mars 2019
 
 
 - trouver informations films (image, categories, réalisateurs, prix, titre, vidéo) et les ajouter a la base de données. (yassine)

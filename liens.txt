@@ -1,5 +1,0 @@
-https://gist.github.com/psdtohtml5/6090113
-https://developer.mozilla.org/fr/docs/Web/API/Window/localStorage
-https://informagenie.com/2268/detecter-fermeture-navigateur-javascript/
-https://www.dyn-web.com/tutorials/php-js/scalar.php
-https://www.tutorialspoint.com/How-to-pass-JavaScript-variables-to-PHP

@@ -1,0 +1,126 @@
+.img_crud
+{
+    height: 100px;
+    width: 80px;
+}
+
+.img_accueil
+{
+    max-width: 400px;
+}
+
+#totalPanier
+{
+    color : red;
+}
+
+
+.img_location
+{
+    max-width: 300px;
+}
+
+.img_nav
+{
+   height: 50px;
+   width: 50px;
+}
+
+.navbar-nav > li
+{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.marge-bas
+{
+    margin-bottom: 20px;
+}
+
+.marge-gauche
+{
+    margin-left: 50px;
+}
+
+.pied
+{
+    text-align: center;
+    font-size: 20px;
+    font-size: bold;
+}
+
+.marge-haut
+{
+    margin-top: 20px;
+}
+
+h1,h2
+{
+    font-weight: bold;    
+    text-align: center;
+    padding-bottom: 50px;    
+}
+
+.text-titre
+{    
+    font-weight: bold;
+}
+
+.custom-center 
+{
+    margin: auto;      
+}
+
+tfoot > tr > td 
+{
+  border-top: none !important;
+}
+
+.modal-dialog 
+{
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.modal-body 
+{
+  position:relative;
+  padding:0px;
+}
+.close 
+{
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+.video-btn
+{
+    cursor: pointer;
+}
+
+.modal-content
+{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.modal-title
+{
+    margin: 0 auto;
+}
+
+.noir
+{
+    color: black;
+}
+
+body
+{
+    font-family: 'Roboto Slab', serif;
+}

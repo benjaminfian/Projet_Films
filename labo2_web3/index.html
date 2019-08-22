@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Films</title>    
+    <meta charset="utf-8">
+    <script language="javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script language="javascript" src="js/global.js"></script>
+    <script language="javascript" src="Films/filmsRequetes.js"></script>
+    <script language="javascript" src="Films/filmsControleurVue.js"></script>	
+    <script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min">
+	<link rel="stylesheet" href="css/monCSS.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+    
+<body class="bg-white" onload="accueil()">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light marge-bas">
+    <div class="container-fluid">
+        <a class="navbar-brand text-dark" href="index.html">
+            <img src="images/logo.png" height="100px" width="100px"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item navbar-collapse active">
+          <a class="nav-link" href="index.html">Accueil</a>
+      </li>      
+      <li class="nav-item navbar-collapse dropdown">
+        <a class="nav-link dropdown-toggle text-dark" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Vidéothèque</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" onclick="lister('Action')" href="#">Action</a>
+            <a class="dropdown-item" onclick="lister('Drame')" href="#">Drame</a>
+		    <a class="dropdown-item" onclick="lister('Horreur')" href="#">Horreur</a>
+		    <a class="dropdown-item" onclick="lister('Science-fiction')" href="#">Science fiction</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" onclick="lister()" href="#">Toutes les catégories</a>
+        </div>        
+      </li>
+    </ul>    
+    </div>
+    </div>
+</nav>
+    
+    <div id="contenu" class="row mt-5 justify-content-center"></div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="preview" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">      
+          <div class="modal-body">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>        
+            <!-- 16:9 aspect ratio -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+    </div>        
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<div class="marge-haut pied"><p>&nbsp;&nbsp;Collège Maisonneuve, groupe 16701 / Benjamin Fian, Elena Maslakova, Octavian Catanoi, Yassine Semmar</p></div>
+
+</body>
+
+</html>
+
+    
+    
